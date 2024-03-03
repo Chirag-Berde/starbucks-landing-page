@@ -1,0 +1,130 @@
+/* navbar css */
+body {
+  height: 100vh;
+}
+.navbar li {
+  color: #000000;
+}
+.navbar li a:hover {
+  color: #00754a !important;
+  font-weight: 500;
+}
+.navbar li:first-child {
+  border-bottom: 2px solid #00754a;
+}
+.navbar form .fa-user-o {
+  border: 2px solid black;
+  border-radius: 50%;
+  padding: 5px;
+}
+/* popup */
+.popup span {
+  border: 2px solid;
+  background: #006241;
+  color: #ffffff;
+  padding: 0.75rem 2rem;
+  border-radius: 1rem;
+}
+/* content */
+.content {
+  margin-top: 1rem;
+}
+.content p {
+  font-weight: 400;
+}
+.content .price {
+  color: #000000;
+  font-weight: 500;
+}
+.coffee-img img {
+  height: 320px;
+  width: 270px;
+}
+/* sub-content */
+.sub-content .row {
+  margin-top: 1rem;
+}
+.sub-content h2 {
+  font-weight: 400;
+}
+.sub-content img {
+  height: 120px;
+  width: 100px;
+}
+
+.sub-content img:hover {
+  cursor: pointer;
+}
+
+/* media queries for mobile */
+@media only screen and (max-width: 767px) {
+  /* navbar */
+  .navbar li:first-child {
+    border-bottom: none;
+    margin-left: 0 !important;
+  }
+  .navbar ul {
+    text-align: center;
+  }
+  /* content */
+  .content {
+    margin-top: 2rem;
+  }
+  .content h1 br {
+    display: none !important;
+  }
+
+  .content .row .col-md-6:nth-of-type(2) {
+    margin-top: 2rem;
+  }
+  /* subcontent */
+  .sub-content {
+    margin-top: 2rem;
+  }
+  .sub-content .row {
+    text-align: center;
+  }
+  .sub-content h2 {
+    text-align: center;
+    font-size: 1.9rem !important;
+  }
+  .sub-content img {
+    height: auto;
+    width: auto;
+  }
+}
+
+/* media queries for tablet */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  /* navbar */
+  .navbar li:first-child {
+    border-bottom: none;
+    margin-left: 0 !important;
+  }
+  .navbar ul {
+    text-align: center;
+  }
+  /* content */
+  .content {
+    margin-top: 3.5rem;
+  }
+  .content p br {
+    display: none !important;
+  }
+
+  .content .row {
+    align-items: center;
+  }
+  /* subcontent */
+  .sub-content {
+    margin-top: 3rem;
+  }
+  .sub-content .row {
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .sub-content h2 {
+    text-align: center;
+  }
+}
